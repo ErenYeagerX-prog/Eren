@@ -115,7 +115,7 @@ buttons = [
         InlineKeyboardButton(text="˹ ᴀʙᴏᴜᴛ ˼", callback_data="avisha_"),
     ],
     [
-        InlineKeyboardButton(text="˹ ʜєʟᴘ ᴧηᴅ ᴄσϻϻᴧηᴅs ˼", callback_data="Main_help"),
+        InlineKeyboardButton(text="˹ ʜᴇʟᴘ Aɴᴅ Cᴏᴍᴍᴀɴᴅs ˼", callback_data="Main_help"),
     ],
      
 ]
@@ -123,7 +123,7 @@ buttons = [
 
 roy = [
     [
-        InlineKeyboardButton(text="⌯ ʌᴅᴅ ϻє вᴧʙʏ ⌯", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+        InlineKeyboardButton(text="⌯ ʌᴅᴅ ϻє  ⌯", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         InlineKeyboardButton(text="˹ sυᴘᴘσʀᴛ ˼", url=f"https://t.me/{SUPPORT_CHAT}")
     ]
 ]
@@ -359,7 +359,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             random.choice(NYKAA),
-            caption="⬤ ๛ᴀ ʟ ɪ s ʜ ᴀ ࿐ ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.\n\n⬤ ᴜᴘᴛɪᴍᴇ ➥ <code>{}</code>".format(
+            caption=" Eren ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.\n\n⬤ ᴜᴘᴛɪᴍᴇ ➥ <code>{}</code>".format(
                 uptime
             ),
             reply_markup=InlineKeyboardMarkup(roy),
@@ -1187,7 +1187,7 @@ def main():
 **● ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥** `{tlhver}`
 **● ᴩʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ ➥** `{pyrover}`
 
-**❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [๛ᴀ ʀ ɪ s ʜ ᴀ ࿐](https://t.me/the_incricible)**
+**❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [˹🇮🇳˼𓆩⏤͟͟͞͞ Aᴋɪʀᴀ ɪsʜɪᴋᴋɪ𓆪](https://t.me/EgoisticDestroyer)**
      ━━━━━━━━ ⊱◈◈◈⊰ ━━━━━━━━
 """,reply_markup=x,
                 parse_mode=ParseMode.MARKDOWN,
