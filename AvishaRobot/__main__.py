@@ -487,7 +487,7 @@ def Avisha_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(text="⌯ ʙᴀᴄᴋ ⌯", callback_data="avisha_back"),
-                        InlineKeyboardButton(text="˹ sυᴘᴘσʀᴛ ˼", url="https://t.me/the_incricible"),
+                        InlineKeyboardButton(text="˹ sυᴘᴘσʀᴛ ˼", url="https://t.me/OgApexMainchat"),
                     ],
                 ]
             ),
@@ -501,7 +501,7 @@ def Avisha_about_callback(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(text="⌯ ʙᴀᴄᴋ ⌯", callback_data="avisha_back"),
                         InlineKeyboardButton(
-                            text="˹ υᴘᴅᴧᴛєs ˼", url=f"https://t.me/the_incricible"
+                            text="˹ υᴘᴅᴧᴛєs ˼", url=f"https://t.me/OgApexMainchat"
                         ),
                     ],
                 ]
