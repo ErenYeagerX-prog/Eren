@@ -99,18 +99,20 @@ STICKER = [
 ####
 
 PM_START_TEXT = """ 
-*❖ нҽγ {}, ᴡєʟϲοϻε ʙᴧʙʏ* ♥︎\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n●ɪ ᴧϻ {}, ᴧиᴅ ɪ ʜᴧѵε sρεcɪᴧʟ ғєατυɾεร.\n\n● ᴜรᴇʀร ➥ {}\n● ᴄнᴧᴛร ➥ {}\n\n❖ *ɪ нᴧνє ϻᴏsᴛ ᴘᴏᴡєʀғᴜʟʟ gʀουρ ϻᴧɴᴧɢᴇᴍᴇɴᴛ + ϻᴜsɪᴄ ʙᴏᴛ ғᴇᴧᴛᴜʀᴇs.*"""
+*ʜᴇʏ {} ɪ'ᴍ ᴇʀᴇɴ ᴊᴀᴇɢᴇʀ \nㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ\n"
+    "<b>ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:</b> <code>{}</code>\n"
+    "<b>ᴜᴘᴛɪᴍᴇ:</b> <code>{}</code> .*"""
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="⌯ ʌᴅᴅ ϻє вᴧʙʏ ⌯", 
+            text="⚡️ ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ ⚡️", 
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true", 
         ),
     ],
     [
-        InlineKeyboardButton(text="˹ ʀєᴘσ ˼", callback_data="gib_source"),
-        InlineKeyboardButton(text="˹ ᴧʙσᴜᴛ ˼", callback_data="avisha_"),
+        InlineKeyboardButton(text="˹ ʀᴇᴘᴏ ˼", callback_data="gib_source"),
+        InlineKeyboardButton(text="˹ ᴀʙᴏᴜᴛ ˼", callback_data="avisha_"),
     ],
     [
         InlineKeyboardButton(text="˹ ʜєʟᴘ ᴧηᴅ ᴄσϻϻᴧηᴅs ˼", callback_data="Main_help"),
