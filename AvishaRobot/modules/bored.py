@@ -5,7 +5,7 @@ from AvishaRobot import pbot as app
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/AlisaMusicRobot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/ErenYeager_RoXBoT?startgroup=true"),
     ],
 ]
 
